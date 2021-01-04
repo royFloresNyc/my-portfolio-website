@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 const Home = () => {
     return (
-        <Container>This is the home page</Container>
+        <Container style={{paddingTop: '75px'}}>This is the home page</Container>
     )
 }
 
