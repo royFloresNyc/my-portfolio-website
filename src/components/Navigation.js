@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 const Navigation = () => {
     return (
         <>
-            <Navbar collapseOnSelect fixed='top' expand='sm' bg='dark' variant='dark'>
+            <Navbar collapseOnSelect fixed='top' expand='sm' bg='black' variant='dark'>
                 <Container>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'>
