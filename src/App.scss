@@ -1,3 +1,24 @@
+$black: #000;
+$title-font: "Rock Salt", cursive;
+
 .bg-black {
-  background-color: #000;
+  background-color: $black;
+}
+
+.border-black {
+  border: 10px solid $black;
+}
+
+.home {
+  min-height: 100vh;
+
+  .home-name {
+    margin-right: -60px;
+    top: 5vh;
+
+    h1 {
+      font-family: $title-font;
+      font-size: 3em;
+    }
+  }
 }

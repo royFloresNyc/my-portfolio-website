@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
+import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 
 import Navigation from './components/Navigation'

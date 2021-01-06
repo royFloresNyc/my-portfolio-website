@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 const About = () => {
     return (
-        <Container style={{paddingTop: '75px'}}>This is the about page</Container>
+        <Container className='pt-5'>This is the about page</Container>
     )
 }
 

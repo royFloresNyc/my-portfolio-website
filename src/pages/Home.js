@@ -1,9 +1,23 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col, Image} from 'react-bootstrap'
+
+import Profile from '../images/RoyAvatar.jpg'
 
 const Home = () => {
     return (
-        <Container style={{paddingTop: '75px'}}>This is the home page</Container>
+        <Container className='d-flex align-items-center home'>
+            <Row className='d-flex align-items-center'>
+                <Col className='col-12 order-12 col-sm-6 order-sm-first ml-sm-4 home-name'>
+                    <h1 className='d-flex justify-content-center'>Roy Flores</h1>
+                    <Row className='p-2 bg-black text-white d-flex justify-content-center'>
+                        <h3>Software Engineer</h3>
+                    </Row>
+                </Col>
+                <Col className='col-12 order-1 col-sm-6 order-sm-last' >
+                    <Image className='border-black' src={ Profile } roundedCircle fluid />
+                </Col>
+            </Row>
+        </Container>
     )
 }
 
