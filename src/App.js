@@ -3,6 +3,7 @@ import './App.scss'
 import React, { useState } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import { Modal, Form, Button } from 'react-bootstrap'
+import emailjs from 'emailjs-com'
 
 import Navigation from './components/Navigation'
 import Home from './pages/Home'
@@ -14,7 +15,12 @@ function App() {
 
     const formSubmitHandler = (e) => {
         e.preventDefault()
-        console.log('!!!Submit Form!!!')
+        emailjs.sendForm(process.env.REACT_APP_MY_SERVICE_ID, process.env.REACT_APP_MY_TEMPLATE_ID, e.target, process.env.REACT_APP_MY_USER_ID)
+            .then((result) => {
+            console.log(result.text);
+            }, (error) => {
+            console.log(error.text);
+            });
         setModalVisible(false)
     }
 
