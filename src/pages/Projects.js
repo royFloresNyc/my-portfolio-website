@@ -1,9 +1,13 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 
 const Projects = () => {
     return (
-        <Container style={{paddingTop: '75px'}}>This is the projects page</Container>
+        <Container style={{paddingTop: '75px'}}>
+            <Row className='page-header p-3'>
+                <h1>Projects</h1>
+            </Row>
+        </Container>
     )
 }
 

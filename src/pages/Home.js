@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image} from 'react-bootstrap'
 
-import Profile from '../images/RoyAvatar.jpg'
+import Profile from '../assets/RoyAvatar.jpg'
 
 const Home = () => {
     return (

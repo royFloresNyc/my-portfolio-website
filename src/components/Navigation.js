@@ -3,7 +3,7 @@ import { Container, Navbar, Nav, Image } from 'react-bootstrap'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 
-import Medium from '../images/medium-icon_7.png'
+import Medium from '../assets/medium-icon_7.png'
 
 const Navigation = ({ modalHandler }) => {
 
