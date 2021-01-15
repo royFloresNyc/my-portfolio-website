@@ -5,6 +5,11 @@ $title-font: "Rock Salt", cursive;
   background-color: $black;
 }
 
+.variant-black {
+  background-color: $black;
+  color: white;
+}
+
 .border-black {
   border: 10px solid $black;
 }
@@ -36,4 +41,17 @@ $title-font: "Rock Salt", cursive;
 
 .form-label {
   font-family: $title-font;
+}
+/*-------- Project Card -------*/
+.proj-logo {
+  padding: 20px;
+  width: "100%";
+  height: auto;
+  padding-top: "100%";
+}
+
+.proj-btns {
+  background-color: $black;
+  color: white;
+  text-align: center;
 }
