@@ -10,7 +10,7 @@ const Resume = () => {
                 <h1>Resume</h1>
             </Row>
             <Row className='justify-content-center'>
-                <object data={ResumePdf} width='100%' height='1100'/>
+                <object data={ResumePdf} width='100%' height='1100'>Resume</object>
             </Row>
             
         </Container>
