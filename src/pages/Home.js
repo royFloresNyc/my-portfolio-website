@@ -5,7 +5,7 @@ import Profile from '../assets/RoyAvatar.jpg'
 
 const Home = () => {
     return (
-        <Container className='d-flex align-items-center home' style={{paddingTop: '75px'}}>
+        <Container id='home' className='d-flex align-items-center home' style={{paddingTop: '75px'}}>
             <Row className='d-flex align-items-center'>
                 <Col className='col-12 order-12 col-lg-6 order-lg-first ml-lg-4 home-name'>
                     <h1 className='d-flex justify-content-center'>Roy Flores</h1>

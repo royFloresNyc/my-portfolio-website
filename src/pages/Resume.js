@@ -5,7 +5,7 @@ import ResumePdf from '../assets/Resume.pdf'
 
 const Resume = () => {
     return (
-        <Container style={{minHeight: '100vh', paddingTop: '75px'}}>
+        <Container id='resume' style={{minHeight: '100vh', paddingTop: '75px'}}>
             <Row className='page-header p-3 mb-5'>
                 <h1>Resume</h1>
             </Row>

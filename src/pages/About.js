@@ -5,7 +5,7 @@ import { bio } from '../assets/myInfo.js'
 
 const About = () => {
     return (
-        <Container style={{paddingTop: '75px'}}>
+        <Container id='about' style={{paddingTop: '75px'}}>
             <Row className='page-header p-3 mb-5'>
                 <h1>About Me</h1>
             </Row>

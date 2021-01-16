@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
 import React, { useState } from 'react'
-import { Route, Switch } from 'react-router-dom'
+//import { Route, Switch } from 'react-router-dom'
 import { Modal, Form, Button } from 'react-bootstrap'
 import emailjs from 'emailjs-com'
 
@@ -28,12 +28,16 @@ function App() {
     return (
         <>
             <Navigation modalHandler={() => setModalVisible(true)}/>
-            <Switch>
+            {/* <Switch>
                 <Route path='/about' component={About}/>
                 <Route path='/projects' component={Projects}/>
                 <Route path='/resume' component={Resume}/>
                 <Route path='/' component={Home}/>
-            </Switch>
+            </Switch> */}
+            <Home/>
+            <About/>
+            <Projects/>
+            <Resume/>
             <Modal show={modalVisible} onHide={() => setModalVisible(false)} centered>
                     <Modal.Header closeButton>
                     </Modal.Header>
