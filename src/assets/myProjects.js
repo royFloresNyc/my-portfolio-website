@@ -1,8 +1,6 @@
 import RoamrLogo from './Logo-red.png'
 import IronBudget from './IronBudgetLogo.png'
 
-
-const bio = 'Full stack web and mobile app developer with experience in Ruby and JavaScript frameworks. Over a decade of experience as a professional theater performer. Innately curious with the ability to learn quickly. Adaptable, resilient, and collaborative. Fluent in English, Tagalog, and Abaknon, and a little bit of Spanish.'
 const projects = [
         {
             name: 'Roamr',
@@ -53,4 +51,4 @@ const projects = [
     ]
 
 
-export { bio, projects }
+export { projects }

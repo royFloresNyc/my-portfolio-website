@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 
 import ProjectCard from '../components/ProjectCard'
-import { projects } from '../assets/myInfo.js'
+import { projects } from '../assets/myProjects.js'
 
 const Projects = () => {
 

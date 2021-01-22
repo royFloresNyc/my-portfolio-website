@@ -28,7 +28,7 @@ const ProjectCard = ({ logo, description, stack, links }) => {
     return (
         <div className='col-lg-8 offset-lg-2 mt-5 mb-5 border border-secondary rounded'>
             <Row>
-                <Col sm={4} className='proj-logo'>
+                <Col sm={4} className='proj-logo pt-3'>
                     <Image src={logo} fluid/>
                 </Col>
                 <Col sm={8} className='d-flex align-items-center'>
