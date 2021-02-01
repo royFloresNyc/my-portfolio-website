@@ -24,11 +24,11 @@ const Navigation = ({ modalHandler }) => {
                     </div>
                     <Navbar.Collapse id='responsive-navbar-nav'>
                         <Nav className='mr-auto order-lg-first'>
-                            <Nav.Link href='#home'>Home</Nav.Link>
-                            <Nav.Link href='#about'>About</Nav.Link>
-                            <Nav.Link href='#projects'>Projects</Nav.Link>
-                            <Nav.Link href='#resume'>Resume</Nav.Link>
-                            <Nav.Link href='#blog'>Blog</Nav.Link>
+                            <Nav.Link href='/#/'>Home</Nav.Link>
+                            <Nav.Link href='/#/about'>About</Nav.Link>
+                            <Nav.Link href='/#/projects'>Projects</Nav.Link>
+                            <Nav.Link href='/#/resume'>Resume</Nav.Link>
+                            <Nav.Link href='/#/blog'>Blog</Nav.Link>
                             <Nav.Link href='#' onSelect={modalHandler}>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

@@ -1,5 +1,7 @@
 $black: #000;
+$skyBlue: rgb(61, 151, 247);
 $darkGrey: #495057;
+$lightGrey: #adb5bd;
 $title-font: "Rock Salt", cursive;
 
 .bg-black {
@@ -13,6 +15,14 @@ $title-font: "Rock Salt", cursive;
 
 .border-black {
   border: 10px solid $black;
+}
+
+.border-black-md {
+  border: 7px solid $black;
+}
+
+.border-custom-white {
+  border: 10px solid white;
 }
 
 .home {
@@ -57,13 +67,16 @@ $title-font: "Rock Salt", cursive;
   text-align: center;
 }
 
+/*-------- About Me -------*/
+
 .about-me {
   a {
-    color: $black;
+    color: $lightGrey;
+    font-style: italic;
     &:hover {
-      color: $darkGrey;
+      color: $skyBlue;
       text-decoration: none;
-      font-style: italic;
+      font-style: normal;
     }
   }
 }

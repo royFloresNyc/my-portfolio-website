@@ -13,8 +13,8 @@ const Home = () => {
                         <h3>Software Engineer</h3>
                     </Row>
                 </Col>
-                <Col className='col-12 order-1 col-lg-6 order-lg-last' >
-                    <Image className='border-black' src={ Profile } roundedCircle fluid />
+                <Col className='col-12 order-1 col-lg-6 order-lg-last pl-0 pr-0 rounded-circle border-black' >
+                    <Image className='border-custom-white' src={ Profile } roundedCircle fluid />
                 </Col>
             </Row>
         </Container>

@@ -11,7 +11,7 @@ const Projects = () => {
     }
 
     return (
-        <Container id='projects' style={{paddingTop: '75px'}}>
+        <Container style={{paddingTop: '75px'}}>
             <Row className='page-header p-3 mb-5'>
                 <h1>Projects</h1>
             </Row>

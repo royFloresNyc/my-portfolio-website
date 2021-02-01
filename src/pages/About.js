@@ -4,15 +4,15 @@ import Profile from '../assets/roy_flores_profile.jpg'
 
 const About = () => {
     return (
-        <Container id='about' style={{paddingTop: '75px'}}>
-            <Row className='page-header p-3 mb-5'>
-                <h1>About Me</h1>
-            </Row>
+        <Container style={{paddingTop: '58px'}}>
             <Row>
-                <Col md={4}>
-                    <Image src={Profile} fluid rounded/>
+                <Col md={4} className='p-3'>
+                    <Row className='page-header p-3 d-flex justify-content-center'>
+                        <h1>About Me</h1>
+                    </Row>
+                    <Image src={Profile} fluid roundedCircle className='border-black-md mt-5'/>
                 </Col>
-                <Col className='about-me'>
+                <Col className='about-me bg-black text-white p-5' >
                     <p>I am a <b>Full Stack Web and Mobile App Developer</b> with experience in <b>Ruby</b> and <b>JavaScript</b> libraries and frameworks. And I am curious; curious about life, places, and technology.</p>
                     <p>Before pursuing a career in the tech industry, I had a decade long career as a theatre actor. Some notable experiences include the National Touring production of Kathleen Marshall’s Broadway revival of the classic <b>Anything Goes</b>, as well as playing the roles of <i>Jesus</i> in <b>Godspell</b>, and <i>Chino</i> in <b>West Side Story</b>.</p>
                     <p>My training from the <a href='https://flatironschool.com/' target='_blank' rel='noreferrer'><b>Flatiron School</b></a>’s Software Engineering program, paired with self-education and independent research, provided me with a good foundation and understanding of <b>Ruby</b> and <b>Javascript</b>, as well as libraries and frameworks like <b>Rails</b>, <b>NodeJS</b>, <b>Express</b>, <b>React</b>, <b>Redux</b>, and <b>React Native</b>.</p>
