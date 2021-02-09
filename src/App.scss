@@ -80,3 +80,20 @@ $title-font: "Rock Salt", cursive;
     }
   }
 }
+
+/*-------- Blog -------*/
+
+.blog-image {
+  $width: 100%;
+  width: $width;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-date {
+  font-size: 13px;
+}
+
+.blog-content {
+  font-size: 15px;
+}
