@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Button, Image, Row} from 'react-bootstrap'
-import { FaGithub } from 'react-icons/fa'
-import { FaPlayCircle } from 'react-icons/fa'
+import { FaGithub, FaPlayCircle } from 'react-icons/fa'
 
 const ProjectCard = ({ logo, description, stack, links }) => {
     const renderButtons = () => {

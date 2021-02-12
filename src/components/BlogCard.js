@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Card, Image} from 'react-bootstrap'
+import { Col, Card } from 'react-bootstrap'
 import moment from 'moment'
 
 function BlogCard({ blog }) {

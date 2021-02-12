@@ -1,8 +1,14 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+
+import { technologies } from '../assets/myProjects'
 import Profile from '../assets/roy_flores_profile.jpg'
 
 const About = () => {
+    const renderTechLogos = () => {
+        return technologies.map(tech => tech)
+    }
+
     return (
         <Container style={{paddingTop: '58px'}}>
             <Row>
@@ -10,9 +16,12 @@ const About = () => {
                     <Row className='page-header p-3 d-flex justify-content-center'>
                         <h1>About Me</h1>
                     </Row>
-                    <Image src={Profile} fluid roundedCircle className='border-black-md mt-5'/>
+                    <Image src={Profile} fluid roundedCircle className='border-black-md mt-3 mt-md-5'/>
+                    <Row className='pt-2 pt-md-5' xs={5}>
+                        {renderTechLogos()}
+                    </Row>
                 </Col>
-                <Col className='about-me bg-black text-white p-5' >
+                <Col className='about-me bg-black text-white p-3 p-md-5' >
                     <p>I am a <b>Full Stack Web and Mobile App Developer</b> with experience in <b>Ruby</b> and <b>JavaScript</b> libraries and frameworks. And I am curious; curious about life, places, and technology.</p>
                     <p>Before pursuing a career in the tech industry, I had a decade long career as a theatre actor. Some notable experiences include the National Touring production of Kathleen Marshall’s Broadway revival of the classic <b>Anything Goes</b>, as well as playing the roles of <i>Jesus</i> in <b>Godspell</b>, and <i>Chino</i> in <b>West Side Story</b>.</p>
                     <p>My training from the <a href='https://flatironschool.com/' target='_blank' rel='noreferrer'><b>Flatiron School</b></a>’s Software Engineering program, paired with self-education and independent research, provided me with a good foundation and understanding of <b>Ruby</b> and <b>Javascript</b>, as well as libraries and frameworks like <b>Rails</b>, <b>NodeJS</b>, <b>Express</b>, <b>React</b>, <b>Redux</b>, and <b>React Native</b>.</p>
