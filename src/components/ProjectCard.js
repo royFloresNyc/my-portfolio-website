@@ -1,8 +1,8 @@
 import React from 'react'
-import { Col, Button, Image, Row} from 'react-bootstrap'
+import { Col, Button, Image, Row, Badge } from 'react-bootstrap'
 import { FaGithub, FaPlayCircle } from 'react-icons/fa'
 
-const ProjectCard = ({ logo, description, stack, links }) => {
+const ProjectCard = ({ appType, logo, description, stack, links }) => {
     const renderButtons = () => {
         return links.map((linkObj, indx) => <Button key={indx} className='mr-0 ml-0 mr-sm-3 ml-sm-3' variant='white' size='sm' style={{color: 'white'}}
                 href={linkObj.link} target='_blank' rel='noreferrer'>
@@ -26,8 +26,11 @@ const ProjectCard = ({ logo, description, stack, links }) => {
 
     return (
         <div className='col-lg-8 offset-lg-2 mt-5 mb-5 border border-secondary rounded'>
+            <Badge pill variant='info' className='project-badge'>
+                {appType}
+            </Badge>
             <Row>
-                <Col sm={4} className='proj-logo pt-3'>
+                <Col sm={4} className='proj-logo pt-4'>
                     <Image src={logo} fluid/>
                 </Col>
                 <Col sm={8} className='d-flex align-items-center'>

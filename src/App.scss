@@ -67,6 +67,12 @@ $title-font: "Rock Salt", cursive;
   text-align: center;
 }
 
+.project-badge {
+  padding: 10px;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+}
 /*-------- About Me -------*/
 
 .about-me {
@@ -84,9 +90,8 @@ $title-font: "Rock Salt", cursive;
 /*-------- Blog -------*/
 
 .blog-image {
-  $width: 100%;
-  width: $width;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 

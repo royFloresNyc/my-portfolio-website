@@ -7,6 +7,7 @@ import IronBudget from './IronBudgetLogo.png'
 const projects = [
         {
             name: 'Roamr',
+            appType: 'Mobile App',
             logo: RoamrLogo,
             description: 'A travel app that allows users to query any city, view photos, information, safety ratings, points of interest, and maps.',
             stack: 'React Native, Ruby on Rails',
@@ -30,6 +31,7 @@ const projects = [
         },
         {
             name: 'Iron Budget',
+            appType: 'Web App',
             logo: IronBudget,
             description: 'A financial accounting tool that allows users to keep track of their income and expenditures and analyze their spending habits.',
             stack: 'React, Ruby on Rails',

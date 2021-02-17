@@ -25,7 +25,7 @@ const Blog = () => {
             <Row className='page-header p-3 mb-5'>
                 <h1>Blog</h1>
             </Row>
-            <Row xs={1} md={2} lg={3} className='p-3'>
+            <Row xs={1} md={2} lg={3} className='p-2'>
                 {blogs ? renderBlogs() : null}
             </Row>
         </Container>
