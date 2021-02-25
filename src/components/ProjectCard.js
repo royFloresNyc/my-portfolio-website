@@ -30,7 +30,7 @@ const ProjectCard = ({ appType, logo, description, stack, links }) => {
                 {appType}
             </Badge>
             <Row>
-                <Col sm={4} className='proj-logo'>
+                <Col sm={4} className='proj-logo pt-2 pb-2'>
                     <Image src={logo} fluid/>
                 </Col>
                 <Col sm={8} className='d-flex align-items-center'>

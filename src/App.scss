@@ -102,3 +102,10 @@ $title-font: "Rock Salt", cursive;
 .blog-content {
   font-size: 15px;
 }
+
+/*-------- Resume -------*/
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: auto !important;
+}

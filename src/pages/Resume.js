@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
+import { Document, Page } from 'react-pdf'
 
 import ResumePdf from '../assets/Resume.pdf'
 
@@ -10,7 +11,10 @@ const Resume = () => {
                 <h1>Resume</h1>
             </Row>
             <Row className='justify-content-center'>
-                <object data={ResumePdf} width='100%' height='1100'>Resume</object>
+                {/* <object data={ResumePdf} width='100%' height='1100'>Resume</object> */}
+                <Document file={ResumePdf} options={{workerSrc: "pdf.worker.js"}} renderMode='canvas'>
+                        <Page pageNumber={1}/>
+                </Document>
             </Row>
             
         </Container>
