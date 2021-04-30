@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a09eb9d0.chunk.css",
-    "main.js": "/static/js/main.b7939aea.chunk.js",
-    "main.js.map": "/static/js/main.b7939aea.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.239b1ff4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.239b1ff4.js.map",
+    "main.css": "/static/css/main.6f96b9b6.chunk.css",
+    "main.js": "/static/js/main.52b1f94b.chunk.js",
+    "main.js.map": "/static/js/main.52b1f94b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.84255f5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.84255f5d.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.b1daeaeb.chunk.js": "/static/js/2.b1daeaeb.chunk.js",
-    "static/js/2.b1daeaeb.chunk.js.map": "/static/js/2.b1daeaeb.chunk.js.map",
-    "static/js/3.3ef52710.chunk.js": "/static/js/3.3ef52710.chunk.js",
-    "static/js/3.3ef52710.chunk.js.map": "/static/js/3.3ef52710.chunk.js.map",
+    "static/js/2.bd12b817.chunk.js": "/static/js/2.bd12b817.chunk.js",
+    "static/js/2.bd12b817.chunk.js.map": "/static/js/2.bd12b817.chunk.js.map",
+    "static/js/3.d0b2f6fe.chunk.js": "/static/js/3.d0b2f6fe.chunk.js",
+    "static/js/3.d0b2f6fe.chunk.js.map": "/static/js/3.d0b2f6fe.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.a09eb9d0.chunk.css.map": "/static/css/main.a09eb9d0.chunk.css.map",
-    "static/js/2.b1daeaeb.chunk.js.LICENSE.txt": "/static/js/2.b1daeaeb.chunk.js.LICENSE.txt",
+    "static/css/main.6f96b9b6.chunk.css.map": "/static/css/main.6f96b9b6.chunk.css.map",
+    "static/js/2.bd12b817.chunk.js.LICENSE.txt": "/static/js/2.bd12b817.chunk.js.LICENSE.txt",
     "static/media/IronBudgetLogo.471d0f15.png": "/static/media/IronBudgetLogo.471d0f15.png",
     "static/media/Logo-red.e0f56d7e.png": "/static/media/Logo-red.e0f56d7e.png",
     "static/media/Resume.66a61747.pdf": "/static/media/Resume.66a61747.pdf",
@@ -21,10 +21,10 @@
     "static/media/roy_flores_profile.c8b1bd64.jpg": "/static/media/roy_flores_profile.c8b1bd64.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.239b1ff4.js",
+    "static/js/runtime-main.84255f5d.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.b1daeaeb.chunk.js",
-    "static/css/main.a09eb9d0.chunk.css",
-    "static/js/main.b7939aea.chunk.js"
+    "static/js/2.bd12b817.chunk.js",
+    "static/css/main.6f96b9b6.chunk.css",
+    "static/js/main.52b1f94b.chunk.js"
   ]
 }
