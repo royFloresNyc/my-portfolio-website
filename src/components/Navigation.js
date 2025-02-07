@@ -25,9 +25,10 @@ const Navigation = ({ modalHandler }) => {
                             <Nav.Link href='/#/'>Home</Nav.Link>
                             <Nav.Link href='/#/about'>About</Nav.Link>
                             <Nav.Link href='/#/projects'>Projects</Nav.Link>
-                            <Nav.Link href='/#/resume'>Resume</Nav.Link>
+                            {/* <Nav.Link href='/#/resume'>Resume</Nav.Link> */}
                             <Nav.Link href='/#/blog'>Blog</Nav.Link>
-                            <Nav.Link href='#' onSelect={modalHandler}>Contact</Nav.Link>
+                            {/* <Nav.Link href='#' onSelect={modalHandler}>Contact</Nav.Link> */}
+                            <Nav.Link href='mailto:royfloresnyc@gmail.com'>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
